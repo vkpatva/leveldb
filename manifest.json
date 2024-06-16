@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "leveldb Extension",
+    "version": "1.0",
+    "description": "A Extension to play with google leveldb",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
